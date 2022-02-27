@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kobi-pearlman-22-02-2022/static/css/main.7cf42f88.css",
-    "main.js": "/kobi-pearlman-22-02-2022/static/js/main.d4d15956.js",
+    "main.js": "/kobi-pearlman-22-02-2022/static/js/main.afcf706d.js",
     "static/js/787.b1761688.chunk.js": "/kobi-pearlman-22-02-2022/static/js/787.b1761688.chunk.js",
     "index.html": "/kobi-pearlman-22-02-2022/index.html",
     "main.7cf42f88.css.map": "/kobi-pearlman-22-02-2022/static/css/main.7cf42f88.css.map",
-    "main.d4d15956.js.map": "/kobi-pearlman-22-02-2022/static/js/main.d4d15956.js.map",
+    "main.afcf706d.js.map": "/kobi-pearlman-22-02-2022/static/js/main.afcf706d.js.map",
     "787.b1761688.chunk.js.map": "/kobi-pearlman-22-02-2022/static/js/787.b1761688.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cf42f88.css",
-    "static/js/main.d4d15956.js"
+    "static/js/main.afcf706d.js"
   ]
 }
