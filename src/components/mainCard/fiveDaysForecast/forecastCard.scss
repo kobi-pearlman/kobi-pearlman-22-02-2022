@@ -1,0 +1,28 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  //   margin: 2px;
+
+  .card-styles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    .forecast-icon {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .card-container {
+    .card-styles {
+      height: 180px;
+      flex-direction: column;
+      .forecast-icon {
+        display: block;
+      }
+    }
+  }
+}
