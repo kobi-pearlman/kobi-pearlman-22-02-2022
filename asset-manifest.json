@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kobi-pearlman-22-02-2022/static/css/main.93d8579f.css",
-    "main.js": "/kobi-pearlman-22-02-2022/static/js/main.93133a7e.js",
+    "main.css": "/kobi-pearlman-22-02-2022/static/css/main.7cf42f88.css",
+    "main.js": "/kobi-pearlman-22-02-2022/static/js/main.d4d15956.js",
     "static/js/787.b1761688.chunk.js": "/kobi-pearlman-22-02-2022/static/js/787.b1761688.chunk.js",
     "index.html": "/kobi-pearlman-22-02-2022/index.html",
-    "main.93d8579f.css.map": "/kobi-pearlman-22-02-2022/static/css/main.93d8579f.css.map",
-    "main.93133a7e.js.map": "/kobi-pearlman-22-02-2022/static/js/main.93133a7e.js.map",
+    "main.7cf42f88.css.map": "/kobi-pearlman-22-02-2022/static/css/main.7cf42f88.css.map",
+    "main.d4d15956.js.map": "/kobi-pearlman-22-02-2022/static/js/main.d4d15956.js.map",
     "787.b1761688.chunk.js.map": "/kobi-pearlman-22-02-2022/static/js/787.b1761688.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93d8579f.css",
-    "static/js/main.93133a7e.js"
+    "static/css/main.7cf42f88.css",
+    "static/js/main.d4d15956.js"
   ]
 }
