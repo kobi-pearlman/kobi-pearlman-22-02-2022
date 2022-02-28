@@ -3,6 +3,7 @@
   background-color: var(--color-background-primery);
   color: var(--color-primery);
   height: 100%;
+  overflow: auto;
 }
 
 * {

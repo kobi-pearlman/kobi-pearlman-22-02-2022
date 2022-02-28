@@ -12,6 +12,7 @@ import { selectMessureMethod } from "../../redux/prefernces/preferencesSelectors
 
 import "./favoriteCard.scss";
 import { ErrorOutlineOutlined } from "@mui/icons-material";
+import { PROJECT_URL } from "../../constants";
 
 const FavoriteCard = ({ info }) => {
   const [data, setData] = useState(null);
@@ -47,8 +48,11 @@ const FavoriteCard = ({ info }) => {
     getData();
   }, []);
   return (
-    <Link to={"/"} onClick={() => handleClick()}>
-      <Card className="favorite-card-styles">
+    <Link to={`/${PROJECT_URL}`} onClick={() => handleClick()}>
+      <Card
+        className="favorite-card-styles"
+        style={{ backgroundColor: "var(--color-background-secondery)" }}
+      >
         <Typography variant="div">{cityName}</Typography>
         {isLoading && <CircularProgress />}
         {hasError && (

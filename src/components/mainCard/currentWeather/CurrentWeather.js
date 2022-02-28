@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import {
   selectCityInfo,
   selectCurrentTemp,
+  selectDescription,
   selectIcon,
 } from "../../../redux/main/mainSelectors";
 
@@ -12,6 +13,7 @@ const CurrentWeather = () => {
   const temperature = useSelector(selectCurrentTemp);
   const { cityName } = useSelector(selectCityInfo);
   const icon = useSelector(selectIcon);
+  const description = useSelector(selectDescription);
 
   return (
     <div className="basic-data-container">
@@ -21,6 +23,7 @@ const CurrentWeather = () => {
       <span>
         <h3>{cityName}</h3>
         <h1>{temperature}°</h1>
+        <h3>{description}</h3>
       </span>
     </div>
   );

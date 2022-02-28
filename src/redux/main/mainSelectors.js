@@ -20,6 +20,11 @@ export const selectCurrentWeatherData = createSelector(
   (main) => main.currentWeatherData
 );
 
+export const selectDescription = createSelector(
+  [selectCurrentWeatherData],
+  (data) => data.WeatherText
+);
+
 export const selectCurrentTemp = createSelector(
   [selectCurrentWeatherData, selectMessureMethod],
   (data, messureMethod) =>

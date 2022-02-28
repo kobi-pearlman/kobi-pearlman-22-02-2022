@@ -9,8 +9,8 @@ const FiveDaysForecastContiner = () => {
   return (
     <Grid container spacing={1} justifyContent="center">
       {fiveDaysForecat.map((day, i) => (
-        <Grid item xs={12} sm={2}>
-          <ForecstCard key={i} data={day} />
+        <Grid key={i} item xs={12} sm={2}>
+          <ForecstCard data={day} />
         </Grid>
       ))}
     </Grid>

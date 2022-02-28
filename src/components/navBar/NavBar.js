@@ -9,6 +9,7 @@ import { IconButton } from "@mui/material";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import { HomeOutlined, StarOutlineOutlined } from "@mui/icons-material";
+import { PROJECT_URL } from "../../constants";
 
 const NavBar = () => {
   const dispatch = useDispatch();
@@ -30,15 +31,20 @@ const NavBar = () => {
         </IconButton>
       </div>
       <div className="links">
-        <Link to="/" className={`${pathName === "/" ? "active" : ""}`}>
+        <Link
+          to={`/${PROJECT_URL}`}
+          className={`${pathName === `/${PROJECT_URL}` ? "active" : ""}`}
+        >
           <span className="link-title"> Home Page</span>{" "}
           <span className="link-icon">
             <HomeOutlined fontSize="large" />
           </span>
         </Link>
         <Link
-          to="/favorites"
-          className={`${pathName === "/favorites" ? "active" : ""}`}
+          to={`/${PROJECT_URL}/favorites`}
+          className={`${
+            pathName === `/${PROJECT_URL}/favorites` ? "active" : ""
+          }`}
         >
           <span className="link-title"> Favorites</span>
           <span className="link-icon">

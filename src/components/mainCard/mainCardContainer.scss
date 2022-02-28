@@ -2,24 +2,24 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 80%;
-  padding-bottom: 15px;
-  margin: auto;
-  margin-top: 20px;
-  border-radius: 20px;
+  height: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
   background-color: var(--color-background-secondery);
-}
-
-@media screen and (min-width: 350px) {
-  .results-container {
-    padding: 0 20px 20px 20px;
-  }
+  padding: 0 20px 20px 20px;
 }
 
 @media screen and(min-width:600px) {
   .results-container {
-    height: 60vh;
+    width: 80%;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-height: 600px) and(min-width:600px) {
+  .results-container {
+    height: 70vh;
   }
 }

@@ -12,6 +12,7 @@ import { getCityByCoords, getWeatherData } from "./redux/main/mainActions";
 import ErrorMessage from "./components/ui/ErrorMessage";
 import { selectShowError } from "./redux/requestsStatus/requestsStatusSelectors";
 import FavoritesPage from "./pages/FavoritesPage";
+import { PROJECT_URL } from "./constants";
 
 function App() {
   const dispatch = useDispatch();
@@ -49,8 +50,11 @@ function App() {
       <NavBar />
       <ThemeProvider theme={theme}>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/favorites" element={<FavoritesPage />} />
+          <Route path={`/${PROJECT_URL}`} element={<HomePage />} />
+          <Route
+            path={`/${PROJECT_URL}/favorites`}
+            element={<FavoritesPage />}
+          />
         </Routes>
         {showError && <ErrorMessage />}
       </ThemeProvider>

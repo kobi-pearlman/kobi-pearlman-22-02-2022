@@ -7,9 +7,8 @@ import {
   DialogTitle,
 } from "@mui/material";
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { closeErrorMsg } from "../../redux/requestsStatus/requestsStatusActions";
-import { selectShowError } from "../../redux/requestsStatus/requestsStatusSelectors";
 
 const ErrorMessage = () => {
   const dispatch = useDispatch();

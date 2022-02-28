@@ -1,4 +1,3 @@
-import { FactoryOutlined } from "@mui/icons-material";
 import { useSelector } from "react-redux";
 import FavoriteCard from "../components/favoriteCard/FavoriteCard";
 

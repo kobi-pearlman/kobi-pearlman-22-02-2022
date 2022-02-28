@@ -2,7 +2,7 @@ import { actionTypes } from "../actionTypes";
 
 const initialState = {
   messureMethod: "c",
-  colorMode: "dark",
+  colorMode: "light",
 };
 
 const preferencesReducer = (state = initialState, action) => {
